@@ -9,8 +9,8 @@ import Student from './components/Student/Student';
 export default (
     <Switch>
         <Route exact path="/" component={Home}/>
-        <Route exact path="/about" component={About}/>
-        <Route exact path="/classlist/:class" component={ClassList}/>
-        <Route exact path="/student/:id" component={Student}/>
+        <Route path="/about" component={About}/>
+        <Route path="/classlist/:class" component={ClassList}/>
+        <Route path="/student/:id" component={Student}/>
     </Switch>
 )
